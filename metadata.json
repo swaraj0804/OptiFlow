@@ -1,0 +1,6 @@
+{
+  "name": "Signal.Core // Autonomous Traffic Optimizer",
+  "description": "A robust full-stack traffic management system featuring real-time autonomous preemption, AI-driven diagnostics, and a backend-integrated audit log for mission-critical infrastructure monitoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

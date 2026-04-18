@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Asimovian&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@theme {
+  --font-sans: "Asimovian", sans-serif;
+  --font-mono: "Asimovian", sans-serif;
+
+  --color-bg: #0c051a;
+  --color-surface: #1b0e33;
+  --color-border: #3a2066;
+  --color-accent-green: #b3ff00;
+  --color-accent-red: #ff006b;
+  --color-accent-blue: #00f0ff;
+  --color-text-secondary: #9f85ff;
+  --animate-pulse-slow: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes pulse-slow {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+  }
+}
